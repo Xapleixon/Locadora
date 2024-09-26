@@ -1,0 +1,48 @@
+Enunciado:
+
+Desenvolver um sistema de locadora de filmes digital, que permita que clientes possam pesquisar, e alugar filmes, bem como realizar algumas consultas sobre a locadora.
+Na versão proposta e dentro do prazo estipulado não está em avaliação o desenvolvimento de interface gráfica (Tela HTML), pode ser com interação em um menu (console)
+para simular a digitação e operações (catálogo dos filmes, locações, consultas), utilizem-se da classe principal da aplicação (Main), incluindo o cadastro de dados e simulações de operações.
+A base de cadastro pode se utilizar com dados fixados no código” que simulem a criação e carga de uma base já existente da aplicação.
+
+O Foco principal é na estrutura das classes, atributos, métodos que atendam aos seguintes requisitos e consultas.
+Será utilizado como fonte de dados do site IMDB (https://www.imdb.com) para as informações de filmes.
+
+Os valores de locação são livres e devem respeitar o custo de “1 dia” do aluguel. Logo 5 dias seriam 5 vezes o valor.
+
+Estrutura:
+· Filmes devem conter o seu título, diretor, suportar elenco (vários atores), data lançamento, duração, categoria, além de possuir preço de locação. [FEITO]
+· Cliente (Nome, idade, número ID, etc..) podem locar vários filmes, distintos em diferentes datas. [FEITO]
+· Operações de locação entre o Cliente e seu filme devem ser registradas para consulta. A locação representa a operação de um cliente que locou um filme. Conter data e valor operação
+
+Cadastro Base de dados / operações:
+· Mínimo de 10 filmes cadastrados (catálogo) [FEITO]
+. Escolher um autor que deve possuir mais de um livro cadastrado [FEITO]
+. Mínimo 3 categorias distintas [FEITO]
+· Mínimo de 7 compras realizadas em diferentes datas [FEITO]
+. Escolher um cliente que realize mais de uma compra em datas distintas [FEITO]
+
+. No mínimo uma compra não pertencer ao mês corrente (julho).[FEITO]
+· Mínimo de 5 clientes distintos [FEITO]
+
+
+As consultas que atendam às seguintes funcionalidades:
+· Retornar uma lista de filmes, dado um título informado. [FEITO]
+· Retornar uma lista de filmes, dado um nome do diretor informado. [FEITO]
+· Retornar uma lista de filmes, dado uma categoria informada. [FEITO]
+__{FORAM REALIZADOS NA VERSÃO ANTERIOR, COM INTERAÇÃO COM USUÁRIO. A VERSÃO ATUAL NÃO TEM ISSO!}__
+
+
+· Retornar uma lista de filmes, entre uma faixa de preço informada. [FEITO]
+ (Exemplo.: Entre R$10,00 e R$50,00)
+ 
+ 
+· Quais os filmes foram comprados nos últimos 7 dias? [FEITO]
+· Qual o filme mais locado? (A base são todas as locações) [FEITO]
+· Qual o valor total de locações do último mês corrente (julho)? [FEITO]
+· Qual o cliente que mais alugou filmes? A base são todas as locações) [FEITO]
+
+Dicas:
+
+A elaboração da estrutura de dados da locadora é fundamental para a atividade e posterior implementação das consultas.
+(Utilizar classes - paradigma da orientação de objeto).
